@@ -225,7 +225,7 @@ function editConfigBtn() {
       if (colB && colB.innerHTML) {
         colB.innerHTML = `
         <input
-          type="text"
+          type="number"
           class="form-control"
           id="colB${m}"
           placeholder="${atm.config[m]}"
